@@ -1,0 +1,80 @@
+@import url(https://fonts.googleapis.com/css?family=Permanent+Marker);
+body {
+  font-family: 'Permanent Marker', cursive;
+  -moz-background-size: cover;
+  background: #000428;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to left, #000428, #004e92);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to left, #000428, #004e92);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+#new-quote {
+  font-family: 'Permanent Marker', cursive;
+  padding: 10px;
+  border: 1px solid black;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 50px 1px white;
+}
+
+button:active {
+  outline: none;
+}
+
+button:hover,
+#new-quote:hover {
+  cursor: hand;
+}
+
+.main-div {
+  display: block;
+  width: 100%;
+  margin: 100px auto auto;
+  text-align: center;
+}
+
+div.text {
+  font-size: 1.7em;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
+  box-shadow: 0px 0px 50px 11px;
+  color: #FFFFFF;
+  display: inline-block;
+  width: 430px;
+  padding: 30px;
+  margin: 60px auto;
+  text-align: left;
+  -webkit-transition: height, background-color, color 0.7s ease 1s;
+  -moz-transition: height, background-color, color 0.7s ease 1s;
+  -ms-transition: height, background-color, color 0.7s ease 1s;
+  -o-transition: height, background-color, color 0.7s ease 1s;
+  transition: height, background-color, color 0.7s ease 1s;
+}
+
+#quote-author {
+  margin-top: 20px;
+  font-size: 0.6em;
+}
+
+.tweet {
+  width: 30px;
+  height: 30px;
+}
+
+footer {
+  display: block;
+  margin: 80px auto;
+  width: 100%;
+  color: #FFFFFF;
+}
+
+@media screen and (max-width: 554px) {
+  div.text,
+  .main-div {
+    width: 80%;
+  }
+}
